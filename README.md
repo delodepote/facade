@@ -1,7 +1,7 @@
 facade
 ======
 
-a flexible browser mockup CSS framework. See it in action at http://pascalculator.be/facade/
+a flexible browser mockup CSS framework. See it in action at http://www.pascalculator.be/facade/
 
 # Documentation
 
@@ -14,7 +14,7 @@ a flexible browser mockup CSS framework. See it in action at http://pascalculato
 # Example code
 
 ```HTML
-<pre><link rel="stylesheet" href="css/facade.css">
+<link rel="stylesheet" href="css/facade.css">
 ...
 <section class="facade-minimal" data-url="http://www.bowie-to-bowie.io"> 
     <h1>Ground control to Major Tom...</h1>
