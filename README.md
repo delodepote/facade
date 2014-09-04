@@ -22,7 +22,7 @@ a flexible browser mockup CSS framework. See it in action at http://www.pascalcu
 ```
 Which will result into
 
-![Output example of facade layout](https://github.com/pascalculator/facade/tree/master/img/example-of-facade.png "Output example of facade layout")
+![Output example of facade layout](https://raw.githubusercontent.com/pascalculator/facade/master/img/example-of-facade.png "Output example of facade layout")
 
 See the live result at http://www.pascalculator.be/facade/#example
 
