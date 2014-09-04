@@ -20,5 +20,9 @@ a flexible browser mockup CSS framework. See it in action at http://www.pascalcu
     <h1>Ground control to Major Tom...</h1>
 </section>
 ```
-See the result at http://www.pascalculator.be/facade/#example
+Which will result into
+
+![Output example of facade layout](https://github.com/pascalculator/facade/tree/master/img/example-of-facade.png "Output example of facade layout")
+
+See the live result at http://www.pascalculator.be/facade/#example
 
