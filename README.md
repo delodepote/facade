@@ -1,7 +1,7 @@
 facade
 ======
 
-a flexible browser mockup CSS framework. See it in action at http://www.pascalculator.be/facade/
+a flexible browser mockup CSS framework. See it in action at http://facade.pascalculator.be/
 
 # Documentation
 
