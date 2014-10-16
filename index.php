@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/facade.css">
         <link rel="author" href="Pascal Nosenzo, Pascalculator">
 
+        <link rel="shortcut icon" href="http://www.pascalculator.be/img/favicon.ico" type="image/x-icon">
+
         <script type="text/javascript">
 
           var _gaq = _gaq || [];
@@ -28,7 +30,7 @@
 
     <header class="group">
         
-        <h1>FACADE</h1>
+        <h1>Facade</h1>
 
         <ul>
             <li><a href="https://github.com/pascalculator/facade/">Fork on GitHub</a></li>
@@ -151,6 +153,12 @@
             </section>
 
             <p>Since the output always was HTML-code I decided to create a little CSS framework that makes an element look like a browser window. That way I could show what the output should look like instead of having to take screenshots of the HTML. In the end I got a bit carried away and made this entirely in CSS, but it was a fun exercise and I like the fact that this is just one css-file (and admittedly some SVG wizardry) and one class. It's amazing what you can do with <code>::before</code> and <code>::after</code> elements. They've become my favorite CSS tools!</p>    
+
+            <h1>Other projects</h1>
+
+            <p>Here are some other projects I've been working on:</p>
+
+            <?php include_once( '/home/pascaje3/domains/pascalculator.be/public_html/projects.php') ?>
 
         </section>
     </body>
