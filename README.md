@@ -24,5 +24,5 @@ Which will result into
 
 ![Output example of facade layout](https://raw.githubusercontent.com/pascalculator/facade/master/img/example-of-facade.png "Output example of facade layout")
 
-See the live result at http://www.pascalculator.be/facade/#example
+See the live result at http://facade.pascalculator.be/#example
 
