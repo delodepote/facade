@@ -1,32 +1,16 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="A browser window mockup in HTML & CSS">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Facade: a browser window mockup in HTML & CSS</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/global.css">
-        <link rel="stylesheet" href="css/facade.css">
-        <link rel="author" href="Pascal Nosenzo, Pascalculator">
+<?php
 
-        <link rel="shortcut icon" href="http://www.pascalculator.be/img/favicon.ico" type="image/x-icon">
+    $projectName    =   "Facade";
+    $title          =   "Facade: a browser window mockup in HTML & CSS";
+    $description    =   "A browser window mockup in HTML & CSS";
 
-        <script type="text/javascript">
+    $css[]  =   "http://www.pascalculator.be/projects/css/normalize.css";
+    $css[]  =   "http://www.pascalculator.be/projects/css/global.css";
+    $css[]  =   "http://facade.pascalculator.be/css/facade.css";
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-27912766-1']);
-          _gaq.push(['_trackPageview']);
+?>
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
-    </head>
-    <body>
+<?php include_once( '/home/pascaje3/domains/pascalculator.be/public_html/projects/header.php') ?>
 
     <header class="group">
         
@@ -34,7 +18,7 @@
 
         <ul>
             <li><a href="https://github.com/pascalculator/facade/">Fork on GitHub</a></li>
-            <li><a href="http://www.pascalculator.be/facade/css/facade.css">Download v0.1</a></li>
+            <li><a href="http://facade.pascalculator.be/css/facade.css">Download v0.1</a></li>
         </ul>
 
     </header>
@@ -44,7 +28,7 @@
 
         <p>Facade is a lightweight browser window mockup in HTML & CSS. Here's an example:</p>
 
-		<section class="facade-minimal" data-url="http://www.pascalculator.be/facade">
+		<section class="facade-minimal" data-url="http://facade.pascalculator.be/">
 
     		<h1>No more Photoshop.</h1>
             <p>No more taking screenhots and trying to make them fit inside a layer that almost has the right dimensions, but not quite. Cut the crap and create your mockups straight in your HTML.</p>
@@ -61,7 +45,7 @@
     		<h1 id="documentation">Documentation</h1>
 
     		<ul>
-    			<li>Add <a href="http://www.pascalculator.be/facade/css/facade.css">facade.css</a> to you stylesheets</li>
+    			<li>Add <a href="http://facade.pascalculator.be/css/facade.css">facade.css</a> to you stylesheets</li>
     			<li>Create a block element, like a <code>&lt;div&gt;</code> or a <code>&lt;section&gt;</code>.</li>
     			<li>Slap the <code>facade-minimal</code> class on there</li>
     			<li>Add a <code>data-url</code> attribute and fill in your juicy mockup url</li>
@@ -102,7 +86,7 @@
 
             <section class="image-container">
                 <figure>
-                     <img src="http://www.pascalculator.be/facade/img/example-of-output-screenshot.png" alt="Example of difficult to maintain screenshot of exercise output">
+                     <img src="http://facade.pascalculator.be/img/example-of-output-screenshot.png" alt="Example of difficult to maintain screenshot of exercise output">
                     <figcaption>Before: screenshot of output. Difficult to update.</figcaption>
                 </figure>
                        
@@ -154,12 +138,4 @@
 
             <p>Since the output always was HTML-code I decided to create a little CSS framework that makes an element look like a browser window. That way I could show what the output should look like instead of having to take screenshots of the HTML. In the end I got a bit carried away and made this entirely in CSS, but it was a fun exercise and I like the fact that this is just one css-file (and admittedly some SVG wizardry) and one class. It's amazing what you can do with <code>::before</code> and <code>::after</code> elements. They've become my favorite CSS tools!</p>    
 
-            <h1>Other projects</h1>
-
-            <p>Here are some other projects I've been working on:</p>
-
-            <?php include_once( '/home/pascaje3/domains/pascalculator.be/public_html/projects.php') ?>
-
-        </section>
-    </body>
-</html>
+<?php include_once( '/home/pascaje3/domains/pascalculator.be/public_html/projects/footer.php') ?>
